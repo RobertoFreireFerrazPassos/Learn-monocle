@@ -104,7 +104,7 @@ namespace Monocle
             else
                 Origin.Y = size.Y;
 
-            Origin = Origin.Floor();
+            Origin.Floor();
         }
 
         public override void Render()
